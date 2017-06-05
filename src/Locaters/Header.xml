@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<locators>
+   <menu>     
+      <home><![CDATA[HOME_MENU_BUTTON]]></home>  
+      <sales><![CDATA[SALES_MENU_BUTTON]]></sales> 
+      <userstiing>
+          <logout><![CDATA[PANEL_LOGOUT_BUTTON]]></logout> 
+      </userstiing>
+   </menu>
+   <register><![CDATA[//*input[@id='register']]]></register> 
+   <register><![CDATA[PANEL_LOGOUT_BUTTON]]></register>
+   <register><![CDATA[PANEL_LOGOUT_BUTTON]]></register>
+   <register><![CDATA[PANEL_LOGOUT_BUTTON]]></register>
+   <register><![CDATA[PANEL_LOGOUT_BUTTON]]></register>
+</locators>

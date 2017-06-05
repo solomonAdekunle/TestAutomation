@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="Lib/cucumber-core-1.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="Lib/cucumber-testng-1.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="Lib/gherkin-jvm-deps-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="Lib/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="Lib/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="Lib/cucumber-html-0.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="Lib/gherkin-2.12.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="Lib/cucumber-junit-1.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="Lib/cucumber-java8-1.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="Lib/cucumber-java8-1.2.4.jar"/>
+	<classpathentry kind="lib" path="Lib/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="Lib/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="Lib/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="Lib/json-simple-1.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_102"/>
+	<classpathentry kind="lib" path="Lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="Lib/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="Lib/java-json.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="22.900829">
+<testcase classname="Desposit Page" name="Deposit with Invalid Card" time="6.843319">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+When I search for Step2.....................................................passed
+Then found Step3............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Desposit Page" name="Deposit with valid Card" time="6.620509">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+When I search for Step2.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registraction Page" name="Registraction with Invalid Data" time="4.741996">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepsDefinations.RegistrationStepDefination.Test3(RegistrationStepDefination.java:55)&#13;&#10;&#9;at ✽.Then the page title is as expected(Registration.feature:11)&#13;&#10;"><![CDATA[Given I am on the homepage..................................................passed
+When I search for pillows...................................................passed
+Then the page title is as expected..........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at StepsDefinations.RegistrationStepDefination.Test3(RegistrationStepDefination.java:55)
+	at ✽.Then the page title is as expected(Registration.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="Registraction Page" name="Registraction with valid data" time="4.695005">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+When I search for pillows...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
